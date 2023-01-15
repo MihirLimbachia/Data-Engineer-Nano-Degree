@@ -33,7 +33,7 @@ Renamecustomerfields_node1673800145494 = ApplyMapping.apply(
         ("customername", "string", "`(right) customername`", "string"),
         ("email", "string", "`(right) email`", "string"),
         ("phone", "string", "`(right) phone`", "string"),
-        ("birthday", "string", "birthday", "string"),
+        ("birthday", "string", "`(right) birthday`", "string"),
         ("serialnumber", "string", "`(right) serialnumber`", "string"),
         ("registrationdate", "long", "`(right) registrationdate`", "long"),
         ("lastupdatedate", "long", "`(right) lastupdatedate`", "long"),
@@ -74,6 +74,7 @@ DropFields_node1673715606622 = DropFields.apply(
         "`(right) lastupdatedate`",
         "`(right) sharewithresearchasofdate`",
         "`(right) sharewithpublicasofdate`",
+        "`(right) birthday`",
     ],
     transformation_ctx="DropFields_node1673715606622",
 )
